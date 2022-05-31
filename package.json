@@ -1,0 +1,30 @@
+{
+  "name": "crypto-js",
+  "version": "1.0.0",
+  "description": "JavaScript library for encryption / decryption. ",
+  "main": "build/index.js",
+  "scripts": {
+    "start": "npm run build && node build/index.js",
+    "build": "rimraf ./build && tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/psykher/crypto-js.git"
+  },
+  "keywords": [
+    "security",
+    "crypto",
+    "hash",
+    "ROT-X"
+  ],
+  "author": "Carlos Alvarez del Castillo Garcia",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/psykher/crypto-js/issues"
+  },
+  "homepage": "https://github.com/psykher/crypto-js#readme",
+  "devDependencies": {
+    "rimraf": "^3.0.2"
+  }
+}
