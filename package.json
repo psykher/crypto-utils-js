@@ -16,7 +16,8 @@
     "security",
     "crypto",
     "hash",
-    "ROT-X"
+    "ROT-X",
+    "Base64"
   ],
   "author": "Carlos Alvarez del Castillo Garcia",
   "license": "ISC",
