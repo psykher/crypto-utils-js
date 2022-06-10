@@ -56,6 +56,6 @@ let decrypt = crypto.rotx("rot-13 string", 13);
 
 ## License
 
-ISC License (ISC)
+[ISC License (ISC)](https://raw.githubusercontent.com/psykher/crypto-utils-js/master/LICENSE)
 
 ## Made with ❤️ in `México`
