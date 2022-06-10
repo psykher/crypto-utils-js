@@ -53,3 +53,9 @@ let decrypt = crypto.rotx("rot-13 string", 13);
 - New methods.
 - New encrypters, ciphers, encoders.
 - Improve performance.
+
+## License
+
+ISC License (ISC)
+
+## Made with ❤️ in `México`
