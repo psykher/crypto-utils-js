@@ -25,6 +25,7 @@
   },
   "homepage": "https://github.com/psykher/crypto-utils-js#readme",
   "devDependencies": {
+    "@types/node": "^17.0.41",
     "rimraf": "^3.0.2"
   }
 }
