@@ -1,2 +1,2 @@
-declare function rotx(text: string, base: number): string;
+declare function rotx(str: string, base: number): string;
 export { rotx };
