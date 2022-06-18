@@ -4,7 +4,6 @@ class Base64 {
     }
 
     decode(str: string): string {
-
         return (typeof atob === 'undefined') ? Buffer.from(str, 'base64').toString('binary') : atob(str);
     }
 }
