@@ -1,12 +1,12 @@
 {
   "name": "crypto-utils-js",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "JavaScript library for encryption / decryption. ",
-  "main": "build/index.js",
+  "main": "dist/index.js",
   "scripts": {
-    "start": "npm run build && node build/index.js",
-    "build": "rimraf ./build && tsc",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "npm run build && node dist/index.js",
+    "build": "rimraf ./dist && tsc",
+    "test": "jest && exit 1"
   },
   "repository": {
     "type": "git",
@@ -17,7 +17,8 @@
     "crypto",
     "hash",
     "ROT-X",
-    "Base64"
+    "Base64",
+    "Hexadecimal"
   ],
   "author": "Carlos Alvarez del Castillo Garcia",
   "license": "ISC",
@@ -26,7 +27,12 @@
   },
   "homepage": "https://github.com/psykher/crypto-utils-js#readme",
   "devDependencies": {
+    "@babel/preset-typescript": "^7.17.12",
+    "@types/jest": "^28.1.2",
     "@types/node": "^17.0.41",
-    "rimraf": "^3.0.2"
+    "jest": "^28.1.1",
+    "rimraf": "^3.0.2",
+    "ts-jest": "^28.0.5",
+    "ts-node": "^10.8.1"
   }
 }
