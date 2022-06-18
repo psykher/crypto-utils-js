@@ -119,7 +119,7 @@ const crypto = require('crypto-utils-js');
 
 // Use it:
 let encrypt = crypto.base64.encode("plain string");
-let decrypt = crypto.base64.encode("base64 string");
+let decrypt = crypto.base64.decode("base64 string");
 
 // Definition of base64 methods:
 // base64.encode(str: string): string
@@ -168,7 +168,7 @@ const crypto = require('crypto-utils-js');
 
 // Use it:
 let encrypt = crypto.hex.encode("plain string");
-let decrypt = crypto.hex.encode("hexadecimal string");
+let decrypt = crypto.hex.decode("hexadecimal string");
 
 // Definition of hex methods:
 // hex.encode(str: string): string
