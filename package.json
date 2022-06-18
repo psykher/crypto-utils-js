@@ -6,7 +6,7 @@
   "scripts": {
     "start": "npm run build && node dist/index.js",
     "build": "rimraf ./dist && tsc",
-    "test": "jest && exit 1"
+    "test": "jest"
   },
   "repository": {
     "type": "git",
