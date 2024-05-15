@@ -174,3 +174,4 @@ let decrypt = crypto.hex.decode("hexadecimal string");
 // hex.encode(str: string): string
 // hex.decode(str: string): string
 ```
+
